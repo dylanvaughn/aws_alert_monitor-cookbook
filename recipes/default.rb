@@ -11,6 +11,7 @@ template File.join node['aws_alert_monitor']['home'], '.aws-alert-monitor.yml' d
   variables :name         => node['aws_alert_monitor']['name'],
             :access_key   => node['aws_alert_monitor']['access_key'],
             :secret_key   => node['aws_alert_monitor']['secret_key'],
+            :proxy_uri    => node['aws_alert_monitor']['proxy_uri'],
             :events       => node['aws_alert_monitor']['events'],
             :region       => node['aws_alert_monitor']['region'],
             :sqs_endpoint => node['aws_alert_monitor']['sqs_endpoint']

@@ -21,6 +21,7 @@ Add this to your run list
 `node['aws_alert_monitor']['home']`         - Directory where configuration file can be found. Default is `/home/monitor`.
 `node['aws_alert_monitor']['name']`         - Application name. Default is `myapp`.
 `node['aws_alert_monitor']['package_name']` - Name of the OS package to install. Default is 'aws-alert-monitor'.
+`node['aws_alert_monitor']['proxy_uri']`    - URL of http proxy. Default is blank.
 `node['aws_alert_monitor']['region']`       - AWS region. Default is 'us-east-1'.
 `node['aws_alert_monitor']['secret_key']`   - AWS secret key. Default is 'changeme'.
 `node['aws_alert_monitor']['sqs_endpoint']` - SQS endpoint to monitor. Default is 'changeme'.

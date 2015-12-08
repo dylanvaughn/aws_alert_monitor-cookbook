@@ -3,6 +3,7 @@
   secret_key: <%= @secret_key %>
   region: <%= @region %>
   sqs_endpoint: <%= @sqs_endpoint %>
+  proxy_uri: <%= @proxy_uri %>
   events:
 <% @events.each_pair do |event_name, details| %>
     <%= event_name %>:
